@@ -28,15 +28,10 @@ This project is a ** WEB*-based application that enables users to chat with code
    git clone https://github.com/yourusername/repository-name.git
    cd repository-name
 Create a virtual environment:
-
-bash
-Copy code
 python3 -m venv env
 source env/bin/activate  # For Windows use env\Scripts\activate
-Install the required dependencies:
 
-bash
-Copy code
+Install the required dependencies:
 pip install -r requirements.txt
 Set up environment variables (see below).
 
@@ -51,23 +46,22 @@ These values are necessary for integrating with Google Generative AI, ChatGroq, 
 
 Usage
 Run the Streamlit app:
-
 streamlit run app.py
-Process the Repository:
 
+Process the Repository:
 On the web interface, select a repository and a project from the dropdown.
 Click the 'Process' button to fetch the code and initialize the conversation.
-Ask a Question:
 
+Ask a Question:
 Type a question related to the repository code in the input box and submit it.
 The bot will retrieve relevant code snippets or provide explanations based on your query.
-Error Checking:
 
+Error Checking:
 Click the Error Check button to verify code correctness in real-time.
 Company Standards:
-
 Use the Know Company Standards button to retrieve guidelines.
 Features and Functionality
+
 Code Retrieval from Azure DevOps:
 Fetches and processes code from a given repository and file types (.py, .js, etc.).
 
