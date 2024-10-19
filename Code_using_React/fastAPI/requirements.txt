@@ -1,0 +1,11 @@
+uvicorn
+fastapi[all]
+python-dotenv
+numpy
+scikit-learn
+pydantic
+langchain
+langchain-google-genai
+langchain-groq
+azure-devops
+msrest

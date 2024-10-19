@@ -1,0 +1,12 @@
+langchain
+langchain-google-genai
+langchain-groq
+azure-devops
+msrest
+flask
+python-dotenv
+faiss-cpu
+google-generativeai
+openai
+python-dotenv
+langchain-community

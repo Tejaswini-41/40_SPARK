@@ -1,0 +1,20 @@
+{
+  "name": "coep_hackathon",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "cd server && npm i && nodemon index.js",
+    "client": "cd client && npm i && npm run dev",
+    "fastapi": "cd fastApi && uvicorn main:app --reload --port 8000",
+    "dev": "concurrently -k \"npm run server\" \"npm run client\" \"npm run fastapi\""
+  },
+  "keywords": [],
+  "dependencies": {
+    "concurrently": "^8.2.2",
+    "express": "^4.21.1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
